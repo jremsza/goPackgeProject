@@ -16,7 +16,7 @@ As outlined above, the package was created following the steps in the tutorial, 
 
 To use the mathutil package for 5% trimmed mean calculations:
 
-1. Create a .go program that will run the code 
+1. Create a main.go program that will run the program
 
 2. Initialize a module to manage packages using the `go mod init mod_name` in the 
 terminal of the root directory
@@ -25,7 +25,7 @@ terminal of the root directory
 
 4. Import the package into the program the same way all other packages are imported with the import statement and github.com/jremsza/mathutil
 
-5. Write and run the program
+5. Write the program by calling the Average function with a slice of numerical values. See the main.go file in this repo for an example. 
 
 #### To run the Test Go Program 
 
